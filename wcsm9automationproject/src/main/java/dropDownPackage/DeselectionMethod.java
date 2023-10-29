@@ -9,6 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class DeselectionMethod {
+	public static void main(String[] args) throws InterruptedException {
+		
+	
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -22,9 +25,9 @@ public class DeselectionMethod {
 	sel1.selectByIndex(2);
 
 	//deleselect
-	Thread.sleep();
-	sel.deselectByIndex(2);
+	Thread.sleep(2000);
+	sel1.deselectByIndex(2);
 	
-	
+	}
 }
-}
+
