@@ -23,7 +23,7 @@ public class DeselectionMethod {
 	Select sel1 = new Select(dropDown1);
 	//Thread.sleep(2000);
 	sel1.selectByIndex(2);
-
+	
 	//deleselect
 	Thread.sleep(2000);
 	sel1.deselectByIndex(2);
